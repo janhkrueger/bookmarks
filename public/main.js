@@ -30,8 +30,10 @@ function loadYAML(yamlSource) {
       });
 
       const output = document.getElementById('output');
+      output.innerHTML = '';  // Clear previous content
       doc.categories.forEach((category) => {
         const categoryContainer = document.createElement("div");
+
         const titleContainer = document.createElement("div");
         titleContainer.style.display = 'flex';
         titleContainer.style.alignItems = 'center';
@@ -58,6 +60,9 @@ function loadYAML(yamlSource) {
 
         categoryContainer.appendChild(categoryBox);
 
+        // Sort links alphabetically by title
+        category.links.sort((a, b) => a.title.localeCompare(b.title));
+
         const linkList = document.createElement("ul");
         category.links.forEach((link) => {
           const listItem = document.createElement("li");
@@ -78,14 +83,9 @@ function loadYAML(yamlSource) {
     });
 }
 
-// Load YAML when the document is fully loaded
-document.addEventListener('DOMContentLoaded', () => {
-  const outputElement = document.getElementById('output');
-  const yamlSource = outputElement.getAttribute('data-yaml-source');
-
-  if (yamlSource) {
-    loadYAML(yamlSource);
-  } else {
-    console.error('No YAML source specified.');
-  }
+// Automatically load the YAML source specified in the HTML data attribute when the page loads
+document.addEventListener("DOMContentLoaded", function() {
+  const output = document.getElementById('output');
+  const yamlSource = output.getAttribute('data-yaml-source') || 'bookmarks.yaml';
+  loadYAML(yamlSource);
 });
