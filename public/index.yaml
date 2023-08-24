@@ -2,6 +2,7 @@ categories:
   - name: "Development"
     priority: 1
     image: "images/development.jpg"
+    openInNewTab: true # Add this line
     links:
       - url: "https://gitlab.com/janhkrueger/janhkrueger"
         title: "Gitlab"

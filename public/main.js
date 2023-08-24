@@ -70,6 +70,13 @@ function loadYAML(yamlSource) {
           anchor.href = link.url;
           anchor.textContent = link.title;
           anchor.style.color = 'black';
+
+          // Open in new tab if specified in the YAML
+          if (category.openInNewTab) {
+            anchor.target = '_blank';
+            anchor.rel = 'noopener noreferrer';
+          }
+
           listItem.appendChild(anchor);
           linkList.appendChild(listItem);
         });
