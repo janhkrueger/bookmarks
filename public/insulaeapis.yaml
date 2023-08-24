@@ -1,0 +1,139 @@
+categories:
+  - name: "Town API"
+    priority: 4
+    image: "images/town.jpg"
+    links:
+      - url: "https://towns.api.hive.lan/"
+        title: "Towns"
+      - url: "https://town.api.hive.lan/1000000003"
+        title: "Town: /1000000003"
+      - url: "https://town.api.hive.lan/latest/1000000003"
+        title: "/latest/1000000003"
+
+  - name: "Item API"
+    priority: 4
+    image: "images/item.jpg"
+    links:
+      - url: "http://192.168.2.143:9082/latest/item"
+        title: "/item"
+      - url: "http://192.168.2.143:9082/latest/item/1027"
+        title: "item/1027"
+
+  - name: "Killmail API"
+    priority: 4
+    links:
+      - url: "https://killmail.api.hive.lan/1"
+        title: "/killmail/1"
+
+
+  - name: "Buildings API"
+    priority: 4
+    links:
+      - url: "http://192.168.2.143:9084/latest/building"
+        title: "/buildings"
+      - url: "http://192.168.2.143:9084/latest/buildings/9"
+        title: "/buildings/9"
+      - url: "http://192.168.2.143:9084/latest/buildings/46"
+        title: "/buildings/46"
+
+  - name: "History API"
+    priority: 4
+    links:
+      - url: "http://192.168.2.143:9085/latest/history/1000000000"
+        title: "/latest/history/1000000000"
+      - url: "http://192.168.2.143:9085/latest/history/1000000000/1000000004"
+        title: "/latest/history/1000000000/1000000004"
+
+  - name: "World API"
+    image: "images/world.jpg"
+    priority: 4
+    links:
+      - url: "http://192.168.2.143:9090/latest/world"
+        title: "/world"
+
+  - name: "Date API"
+    priority: 4
+    links:
+      - url: "http://192.168.2.143:9086/latest/date"
+        title: "/date"
+
+  - name: "Class API"
+    priority: 4
+    links:
+      - url: "http://192.168.2.143:9088/latest/class"
+        title: "/class"
+      - url: "http://192.168.2.143:9088/latest/class/mana"
+        title: "/class/mana"
+
+
+  - name: "Phase API"
+    priority: 4
+    links:
+      - url: "https://phases.api.hive.lan/"
+        title: "/phase"
+      - url: "https://phases.api.hive.lan/latest/"
+        title: "/latest phase"
+      - url: "https://phases.api.hive.lan/dev/"
+        title: "/dev phase"
+      - url: "https://phases.api.hive.lan/v1/"
+        title: "v1/ phase"
+
+  - name: "Effects API"
+    priority: 4
+    links:
+      - url: "https://effects.api.hive.lan/"
+        title: "/effects"
+
+  - name: "Online Players API"
+    priority: 4
+    links:
+      - url: "http://192.168.2.143:9093/latest/onlineplayers"
+        title: "/latest/onlineplayers"
+
+  - name: "Nation API"
+    priority: 4
+    links:
+      - url: "http://192.168.2.143:9094/latest/nation"
+        title: "/latest/nation"
+      - url: "http://192.168.2.143:9094/latest/nation/1000000026"
+        title: "/latest/nation/1000000026"
+      - url: "http://192.168.2.143:9094/latest/nation/1000000026/members"
+        title: "/latest/nation/1000000026/members"
+      - url: "http://192.168.2.143:9094/latest/nation/1000000026/towns"
+        title: "/latest/nation/1000000026/towns"
+
+  - name: "Group API"
+    priority: 4
+    links:
+      - url: "http://192.168.2.143:9095/latest/group/1000000006"
+        title: "/latest/group/1000000006"
+      - url: "http://192.168.2.143:9095/latest/group/1000000007"
+        title: "/latest/group/1000000007"
+
+  - name: "Statistics API"
+    priority: 4
+    links:
+      - url: "http://192.168.2.143:9092/latest/statistics/money"
+        title: "/latest/statistics/money"
+      - url: "http://192.168.2.143:9092/latest/statistics/fame"
+        title: "/latest/statistics/fame"
+      - url: "http://192.168.2.143:9092/latest/statistics/nation"
+        title: "/latest/statistics/nation"
+      - url: "http://192.168.2.143:9092/latest/statistics/town"
+        title: "/latest/statistics/town"
+      - url: "http://192.168.2.143:9092/latest/statistics/conquests"
+        title: "/latest/statistics/conquests"
+      - url: "http://192.168.2.143:9092/latest/statistics/tradereputation"
+        title: "/latest/statistics/tradereputation"
+      - url: "http://192.168.2.143:9092/latest/statistics/battlereputation"
+        title: "/latest/statistics/battlereputation"
+      - url: "http://192.168.2.143:9092/latest/statistics/evilness"
+        title: "/latest/statistics/evilness"
+      - url: "http://192.168.2.143:9092/latest/statistics/politic"
+        title: "/latest/statistics/politic"
+
+  - name: "Back"
+    priority: 999
+    links:
+      - url: "index.html"
+        title: "Back"
