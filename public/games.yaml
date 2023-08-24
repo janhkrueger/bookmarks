@@ -7,3 +7,9 @@ categories:
         title: "XBox Cloud Gaming"
       - url: "https://gaming.amazon.com/home"
         title: "Prime Gaming"
+
+  - name: "Back"
+    priority: 2
+    links:
+      - url: "index.html"
+        title: "Back"
