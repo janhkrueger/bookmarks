@@ -72,3 +72,11 @@ categories:
     links:
       - url: "http://192.168.2.143:9086/latest/date"
         title: "/date"
+
+  - name: "Class API"
+    priority: 2
+    links:
+      - url: "http://192.168.2.143:9088/latest/class"
+        title: "/class"
+      - url: "http://192.168.2.143:9088/latest/class/mana"
+        title: "/class/mana"
