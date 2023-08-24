@@ -48,3 +48,11 @@ categories:
         title: "/buildings/9"
       - url: "http://192.168.2.143:9084/latest/buildings/46"
         title: "/buildings/46"
+
+  - name: "History API"
+    image: "images/item.jpg"
+    links:
+      - url: "http://192.168.2.143:9085/latest/history/1000000000"
+        title: "/latest/history/1000000000"
+      - url: "http://192.168.2.143:9085/latest/history/1000000000/1000000004"
+        title: "/latest/history/1000000000/1000000004"
