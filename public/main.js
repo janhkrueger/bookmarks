@@ -1,7 +1,19 @@
-// Function to generate a color based on priority
+// Seed value that changes on every page load
+let initialSeed = Math.random();
+
+// Seedable random number generator
+function seededRandom(seed) {
+  const x = Math.sin(seed++) * 10000;
+  return x - Math.floor(x);
+}
+
+// Function to generate a dynamic pastel color based on priority
 function getPriorityColor(priority) {
-  const colorValue = Math.min(priority * 25, 255);
-  return `rgb(${colorValue}, ${colorValue}, 255)`;
+  let colorSeed = initialSeed + priority;
+  const red = Math.floor((seededRandom(colorSeed) * 55) + 200);
+  const green = Math.floor((seededRandom(colorSeed + 1) * 55) + 200);
+  const blue = Math.floor((seededRandom(colorSeed + 2) * 55) + 200);
+  return `rgb(${red}, ${green}, ${blue})`;
 }
 
 // Load YAML file via fetch API
@@ -35,8 +47,8 @@ fetch('bookmarks.yaml')
         const categoryImage = document.createElement("img");
         categoryImage.src = category.image;
         categoryImage.alt = category.name + " icon";
-        categoryImage.style.width = '20px'; // You can customize this
-        categoryImage.style.marginRight = '10px'; // Add some space between the image and the title
+        categoryImage.style.width = '20px';  // You can customize this
+        categoryImage.style.marginRight = '10px';  // Add some space between the image and the title
         titleContainer.appendChild(categoryImage);
       }
 
@@ -63,6 +75,7 @@ fetch('bookmarks.yaml')
         const anchor = document.createElement("a");
         anchor.href = link.url;
         anchor.textContent = link.title;
+        anchor.style.color = 'black'; // Ensure the link color is black
         listItem.appendChild(anchor);
         linkList.appendChild(listItem);
       });
