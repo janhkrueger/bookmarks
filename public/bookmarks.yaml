@@ -66,3 +66,9 @@ categories:
     links:
       - url: "http://192.168.2.143:9090/latest/world"
         title: "/world"
+
+  - name: "Date API"
+    priority: 2
+    links:
+      - url: "http://192.168.2.143:9086/latest/date"
+        title: "/date"
