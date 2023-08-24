@@ -1,0 +1,58 @@
+categories:
+  - name: "Entwicklung"
+    priority: 1
+    image: "images/development.jpg"
+    links:
+      - url: "https://geek-cookbook.funkypenguin.co.nz/ha-docker-swarm/design/"
+        title: "Design - Funky Penguin's Geek Cookbook"
+      - url: "https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-using#setting-up-a-custom-incoming-webhook"
+        title: "Sending messages to Connectors and Webhooks - Teams | Microsoft Docs"
+      - url: "https://github.com/deviantony/docker-elk#how-to-disable-paid-features"
+        title: "deviantony/docker-elk: The Elastic stack (ELK) powered by Docker and Compose."
+      - url: "https://en.cppreference.com/w/cpp/language/lambda"
+        title: "Lambda expressions (since C++11) - cppreference.com"
+      - url: "https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/"
+        title: "Things You Should Never Do, Part I – Joel on Software"
+      - url: "https://github.com/actix/actix-web/"
+        title: "Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust."
+      - url: "https://github.com/techgaun"
+        title: "techgaun (Samar Dhwoj Acharya) · GitHub"
+      - url: "https://about.gitlab.com/handbook/paid-time-off/"
+        title: "Paid time off at GitLab | GitLab"
+      - url: "https://gist.github.com/fmela/591333/c64f4eb86037bb237862a8283df70cdfc25f01d3"
+        title: "A C++ function that produces a stack backtrace with demangled function & method names."
+      - url: "https://cppsecrets.com/users/285511211497106971071169711810511097121121971009711864103109971051084699111109/C00-rapidjsonGetString.php"
+        title: "C++ rapidjson::GetString() | C++ | cppsecrets.com"
+
+  - name: "Game Design"
+    priority: 2
+    image: "images/development.jpg"
+    links:
+      - url: "http://www.raphkoster.com/2009/09/17/agdc-opportunities-for-monetizing-online-games/"
+        title: "Raph’s Website » AGDC: Opportunities for Monetizing Online Games"
+      - url: "https://lostgarden.home.blog/"
+        title: "LOSTGARDEN – thoughtful essays on game design theory, art and the business of design."
+
+  - name: "Dungeon Design"
+    priority: 2
+    links:
+      - url: "http://gamedevelopment.tutsplus.com/tutorials/create-a-procedurally-generated-dungeon-cave-system--gamedev-10099"
+        title: "Create a Procedurally Generated Dungeon Cave System - Tuts+ Game Development Tutorial"
+      - url: "http://gamedev.stackexchange.com/questions/47917/procedural-house-with-rooms-generator"
+        title: "algorithm - Procedural... house with rooms generator - Game Development Stack Exchange"
+      - url: "http://pcg.wikidot.com/category-pcg-algorithms"
+        title: "Algorithms for Procedural Content Generation - Procedural Content Generation Wiki"
+      - url: "http://pcg.wikidot.com/pcg-algorithm:dungeon-generation"
+        title: "Dungeon Generation - Procedural Content Generation Wiki"
+      - url: "http://donjon.bin.sh/code/dungeon/"
+        title: "donjon; Random Dungeon Generator"
+      - url: "http://www.roguebasin.com/index.php?title=Cellular_Automata_Method_for_Generating_Random_Cave-Like_Levels"
+        title: "Cellular Automata Method for Generating Random Cave-Like Levels - RogueBasin"
+      - url: "http://pixelenvy.ca/wa/ca_cave.html"
+        title: "Cave Generation Using Cellular Automata"
+
+  - name: "Back"
+    priority: 999
+    links:
+      - url: "index.html"
+        title: "Back"
