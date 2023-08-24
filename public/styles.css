@@ -18,6 +18,11 @@ body {
     min-width: calc(50% - 20px); /* Take 50% of the container width minus margins */
   }
   
+  /* Category title styles */
+  .category-box h2 {
+    margin-bottom: 10px; /* Added bottom margin */
+  }
+  
   /* Media Query for smaller screens */
   @media (max-width: 767px) {
     body {
