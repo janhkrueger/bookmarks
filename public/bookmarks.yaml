@@ -100,3 +100,51 @@ categories:
     links:
       - url: "https://effects.api.hive.lan/"
         title: "/effects"
+
+  - name: "Online Players API"
+    priority: 2
+    links:
+      - url: "http://192.168.2.143:9093/latest/onlineplayers"
+        title: "/latest/onlineplayers"
+
+  - name: "Nation API"
+    priority: 2
+    links:
+      - url: "http://192.168.2.143:9094/latest/nation"
+        title: "/latest/nation"
+      - url: "http://192.168.2.143:9094/latest/nation/1000000026"
+        title: "/latest/nation/1000000026"
+      - url: "http://192.168.2.143:9094/latest/nation/1000000026/members"
+        title: "/latest/nation/1000000026/members"
+      - url: "http://192.168.2.143:9094/latest/nation/1000000026/towns"
+        title: "/latest/nation/1000000026/towns"
+
+  - name: "Group API"
+    priority: 2
+    links:
+      - url: "http://192.168.2.143:9095/latest/group/1000000006"
+        title: "/latest/group/1000000006"
+      - url: "http://192.168.2.143:9095/latest/group/1000000007"
+        title: "/latest/group/1000000007"
+
+  - name: "Statistics API"
+    priority: 2
+    links:
+      - url: "http://192.168.2.143:9092/latest/statistics/money"
+        title: "/latest/statistics/money"
+      - url: "http://192.168.2.143:9092/latest/statistics/fame"
+        title: "/latest/statistics/fame"
+      - url: "http://192.168.2.143:9092/latest/statistics/nation"
+        title: "/latest/statistics/nation"
+      - url: "http://192.168.2.143:9092/latest/statistics/town"
+        title: "/latest/statistics/town"
+      - url: "http://192.168.2.143:9092/latest/statistics/conquests"
+        title: "/latest/statistics/conquests"
+      - url: "http://192.168.2.143:9092/latest/statistics/tradereputation"
+        title: "/latest/statistics/tradereputation"
+      - url: "http://192.168.2.143:9092/latest/statistics/battlereputation"
+        title: "/latest/statistics/battlereputation"
+      - url: "http://192.168.2.143:9092/latest/statistics/evilness"
+        title: "/latest/statistics/evilness"
+      - url: "http://192.168.2.143:9092/latest/statistics/politic"
+        title: "/latest/statistics/politic"
