@@ -1,0 +1,9 @@
+categories:
+  - name: "Games"
+    priority: 1
+    image: "images/development.jpg"
+    links:
+      - url: "https://www.xbox.com/de-DE/play"
+        title: "XBox Cloud Gaming"
+      - url: "https://gaming.amazon.com/home"
+        title: "Prime Gaming"
