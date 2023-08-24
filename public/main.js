@@ -1,3 +1,9 @@
+// Function to generate a color based on priority
+function getPriorityColor(priority) {
+  const colorValue = Math.min(priority * 25, 255);
+  return `rgb(${colorValue}, ${colorValue}, 255)`;
+}
+
 // Load YAML file via fetch API
 fetch('bookmarks.yaml')
   .then(response => response.text())
@@ -45,6 +51,10 @@ fetch('bookmarks.yaml')
       // Create category box
       const categoryBox = document.createElement("div");
       categoryBox.className = "category-box";
+
+      // Set the background color based on priority
+      categoryBox.style.backgroundColor = getPriorityColor(category.priority);
+
       categoryContainer.appendChild(categoryBox);
 
       const linkList = document.createElement("ul");
