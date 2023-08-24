@@ -1,4 +1,6 @@
-body {
+
+  body, div, h2, ul, li, a {
+    font-family: 'Arial', sans-serif;
     font-size: 16px; /* Default font size */
   }
 
