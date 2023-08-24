@@ -37,3 +37,14 @@ categories:
     links:
       - url: "https://killmail.api.hive.lan/1"
         title: "/killmail/1"
+
+
+  - name: "Buildings API"
+    image: "images/item.jpg"
+    links:
+      - url: "http://192.168.2.143:9084/latest/building"
+        title: "/buildings"
+      - url: "http://192.168.2.143:9084/latest/buildings/9"
+        title: "/buildings/9"
+      - url: "http://192.168.2.143:9084/latest/buildings/46"
+        title: "/buildings/46"
