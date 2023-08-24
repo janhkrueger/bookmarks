@@ -51,6 +51,15 @@ categories:
       - url: "http://pixelenvy.ca/wa/ca_cave.html"
         title: "Cave Generation Using Cellular Automata"
 
+  - name: "Procedural Level Design"
+    priority: 2
+    image: "images/development.jpg"
+    links:
+      - url: "http://journal.stuffwithstuff.com/2014/12/21/rooms-and-mazes/"
+        title: "Rooms and Mazes: A Procedural Dungeon Generator – journal.stuffwithstuff.com"
+      - url: "http://www.gamasutra.com/view/feature/170049/how_to_make_insane_procedural_.php"
+        title: "Gamasutra - How to Make Insane, Procedural Platformer Levels"
+
   - name: "Back"
     priority: 999
     links:
