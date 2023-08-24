@@ -60,6 +60,14 @@ categories:
       - url: "http://www.gamasutra.com/view/feature/170049/how_to_make_insane_procedural_.php"
         title: "Gamasutra - How to Make Insane, Procedural Platformer Levels"
 
+  - name: "C++"
+    priority: 2
+    links:
+      - url: "https://alibabatech.medium.com/gcc-vs-clang-llvm-an-in-depth-comparison-of-c-c-compilers-899ede2be378"
+        title: "GCC vs. Clang/LLVM: An In-Depth Comparison of C/C++ Compilers | by Alibaba Tech | Medium"
+      - url: "https://spin.atomicobject.com/2016/08/26/makefile-c-projects/"
+        title: "A Super-Simple Makefile for Medium-Sized C/C++ Projects"
+
   - name: "Back"
     priority: 999
     links:
