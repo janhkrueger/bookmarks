@@ -1,0 +1,51 @@
+categories:
+  - name: "News"
+    priority: 1
+    image: "images/development.jpg"
+    links:
+      - url: "https://vancouversun.com/"
+        title: "Home | Vancouver Sun"
+      - url: "http://umhverfisstofnun.is/english/tourist-information/where-can-you-camp/"
+        title: "Umhverfisstofnun | Where can you camp?"
+      - url: "http://umhverfisstofnun.is/english/tourist-information/travellers-code/"
+        title: "Umhverfisstofnun | Travellers Code"
+      - url: "https://www.reddit.com/r/natureismetal/comments/kijsmk/nps_took_this_pic_in_yellowstone_national_park/"
+        title: "NPS took this pic in Yellowstone National Park : natureismetal"
+
+  - name: "BayArea"
+    priority: 2
+    links:
+      - url: "https://www.sfgate.com/"
+        title: "SFGATE: San Francisco Bay Area"
+      - url: "https://www.sfchronicle.com/"
+        title: "San Francisco Chronicle"
+      - url: "https://www.ebar.com/"
+        title: "Bay Area Reporter"
+      - url: "http://www.sfweekly.com/"
+        title: "SF Weekly"
+      - url: "https://www.salon.com/"
+        title: "Salon.com"
+
+  - name: "Seattle"
+    priority: 2
+    links:
+      - url: "https://www.seattletimes.com/"
+        title: "The Seattle Times"
+      - url: "https://komonews.com/"
+        title: "Seattle News | KOMO"
+      - url: "http://mynorthwest.com/local/"
+        title: "MyNorthwest.com"
+
+  - name: "Chile"
+    priority: 2
+    links:
+      - url: "https://santiagotimes.cl/"
+        title: "Chile News | Santiago Times"
+      - url: "https://www.chilenews.net/"
+        title: "Chile News.Net"
+
+  - name: "Back"
+    priority: 999
+    links:
+      - url: "index.html"
+        title: "Back"
