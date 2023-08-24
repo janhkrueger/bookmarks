@@ -33,14 +33,12 @@ categories:
         title: "item/1027"
 
   - name: "Killmail API"
-    image: "images/item.jpg"
     links:
       - url: "https://killmail.api.hive.lan/1"
         title: "/killmail/1"
 
 
   - name: "Buildings API"
-    image: "images/item.jpg"
     links:
       - url: "http://192.168.2.143:9084/latest/building"
         title: "/buildings"
@@ -50,7 +48,6 @@ categories:
         title: "/buildings/46"
 
   - name: "History API"
-    image: "images/item.jpg"
     links:
       - url: "http://192.168.2.143:9085/latest/history/1000000000"
         title: "/latest/history/1000000000"
