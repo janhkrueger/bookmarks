@@ -5,8 +5,13 @@ fetch('bookmarks.yaml')
     // Parse YAML text to JavaScript object
     const doc = jsyaml.load(yamlText);
 
-    // Sort categories by name
-    doc.categories.sort((a, b) => a.name.localeCompare(b.name));
+    // Sort categories by priority and then by name
+    doc.categories.sort((a, b) => {
+      if (a.priority === b.priority) {
+        return a.name.localeCompare(b.name);
+      }
+      return a.priority - b.priority;
+    });
 
     const output = document.getElementById('output');
 
@@ -24,8 +29,8 @@ fetch('bookmarks.yaml')
         const categoryImage = document.createElement("img");
         categoryImage.src = category.image;
         categoryImage.alt = category.name + " icon";
-        categoryImage.style.width = '50px';  // You can customize this
-        categoryImage.style.marginRight = '10px';  // Add some space between the image and the title
+        categoryImage.style.width = '50px'; // You can customize this
+        categoryImage.style.marginRight = '10px'; // Add some space between the image and the title
         titleContainer.appendChild(categoryImage);
       }
 

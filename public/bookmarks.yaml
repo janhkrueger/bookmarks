@@ -1,5 +1,6 @@
 categories:
   - name: "Development"
+    priority: 1
     image: "images/development.jpg"
     links:
       - url: "https://gitlab.com/janhkrueger/janhkrueger"
@@ -7,6 +8,7 @@ categories:
       - url: "https://dev.azure.com/janhkrueger/"
         title: "Azure DevOps"
   - name: "PI"
+    priority: 3
     image: "images/pi.jpg"
     links:
       - url: "https://vault.hive.lan/"
@@ -15,6 +17,7 @@ categories:
         title: "Portainer"
 
   - name: "Town API"
+    priority: 2
     image: "images/town.jpg"
     links:
       - url: "https://towns.api.hive.lan/"
@@ -25,6 +28,7 @@ categories:
         title: "/latest/1000000003"
 
   - name: "Item API"
+    priority: 2
     image: "images/item.jpg"
     links:
       - url: "http://192.168.2.143:9082/latest/item"
@@ -33,12 +37,14 @@ categories:
         title: "item/1027"
 
   - name: "Killmail API"
+    priority: 2
     links:
       - url: "https://killmail.api.hive.lan/1"
         title: "/killmail/1"
 
 
   - name: "Buildings API"
+    priority: 2
     links:
       - url: "http://192.168.2.143:9084/latest/building"
         title: "/buildings"
@@ -48,6 +54,7 @@ categories:
         title: "/buildings/46"
 
   - name: "History API"
+    priority: 2
     links:
       - url: "http://192.168.2.143:9085/latest/history/1000000000"
         title: "/latest/history/1000000000"
@@ -55,6 +62,7 @@ categories:
         title: "/latest/history/1000000000/1000000004"
 
   - name: "World API"
+    priority: 2
     links:
       - url: "http://192.168.2.143:9090/latest/world"
         title: "/world"
