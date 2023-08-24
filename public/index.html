@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookmarks</title>
     <style>
-        /* Common styles for both desktop and mobile */
+        body {
+        font-size: 16px; /* Default font size */
+        }
+
+        /* Container to hold all category boxes */
+        #output {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        }
+
+        /* Individual category boxes */
         .category-box {
         border: 2px solid black;
         padding: 10px;
-        margin-bottom: 20px;
-        max-width: 400px;
+        margin: 10px;
+        flex: 1;
+        min-width: calc(50% - 20px); /* Take 50% of the container width minus margins */
         }
 
-        .category-box ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
+        /* Media Query for smaller screens */
+        @media (max-width: 767px) {
+        body {
+            font-size: 18px; /* Increase default font size */
         }
 
-        /* Styles for desktop */
-        @media screen and (min-width: 768px) {
         .category-box {
-            display: inline-block;
-            margin-right: 20px;
+            min-width: calc(100% - 20px); /* Boxes take full width on small screens */
         }
         }
 
-        /* Styles for mobile */
-        @media screen and (max-width: 767px) {
-        .category-box {
-            margin-bottom: 30px;
-            padding: 20px;  /* Increase padding */
-        }
-
-        .category-box h2,
-        .category-box ul li a {
-            font-size: 18px;  /* Increase font size for category title and links */
-        }
-        }
 
 
     </style>
