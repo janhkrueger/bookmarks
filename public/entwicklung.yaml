@@ -68,6 +68,14 @@ categories:
       - url: "https://spin.atomicobject.com/2016/08/26/makefile-c-projects/"
         title: "A Super-Simple Makefile for Medium-Sized C/C++ Projects"
 
+  - name: "What is DevOps"
+    priority: 2
+    links:
+      - url: "https://denkensolutions.com/blog"
+        title: "Blog | Denken Solutions"
+      - url: "https://www.slideshare.net/aadiMisra/devops-culture-75811464"
+        title: "DevOps culture"
+
   - name: "Back"
     priority: 999
     links:
