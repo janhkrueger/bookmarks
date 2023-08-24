@@ -62,6 +62,7 @@ categories:
         title: "/latest/history/1000000000/1000000004"
 
   - name: "World API"
+    image: "images/world.jpg"
     priority: 2
     links:
       - url: "http://192.168.2.143:9090/latest/world"
