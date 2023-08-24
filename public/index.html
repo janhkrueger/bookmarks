@@ -4,41 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookmarks</title>
-    <style>
-        body {
-        font-size: 16px; /* Default font size */
-        }
-
-        /* Container to hold all category boxes */
-        #output {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: start;
-        }
-
-        /* Individual category boxes */
-        .category-box {
-        border: 2px solid black;
-        padding: 10px;
-        margin: 10px;
-        flex: 1;
-        min-width: calc(50% - 20px); /* Take 50% of the container width minus margins */
-        }
-
-        /* Media Query for smaller screens */
-        @media (max-width: 767px) {
-        body {
-            font-size: 18px; /* Increase default font size */
-        }
-
-        .category-box {
-            min-width: calc(100% - 20px); /* Boxes take full width on small screens */
-        }
-        }
-
-
-
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Make sure this link is correct -->
 </head>
 <body>
     <div id="output"></div>
