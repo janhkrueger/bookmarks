@@ -14,14 +14,14 @@ categories:
 
 
   - name: "Books"
-    priority: 2
+    priority: 3
     links:
       - url: "https://www.amazon.de/hz/mycd/digital-console/contentlist/booksAll/dateDsc/"
         title: "Buchliste"
 
 
   - name: "PI"
-    priority: 4
+    priority: 5
     image: "images/pi.jpg"
     links:
       - url: "https://vault.hive.lan/"
@@ -30,7 +30,7 @@ categories:
         title: "Portainer"
 
   - name: "Town API"
-    priority: 3
+    priority: 4
     image: "images/town.jpg"
     links:
       - url: "https://towns.api.hive.lan/"
@@ -41,7 +41,7 @@ categories:
         title: "/latest/1000000003"
 
   - name: "Item API"
-    priority: 3
+    priority: 4
     image: "images/item.jpg"
     links:
       - url: "http://192.168.2.143:9082/latest/item"
@@ -50,14 +50,14 @@ categories:
         title: "item/1027"
 
   - name: "Killmail API"
-    priority: 3
+    priority: 4
     links:
       - url: "https://killmail.api.hive.lan/1"
         title: "/killmail/1"
 
 
   - name: "Buildings API"
-    priority: 3
+    priority: 4
     links:
       - url: "http://192.168.2.143:9084/latest/building"
         title: "/buildings"
@@ -67,7 +67,7 @@ categories:
         title: "/buildings/46"
 
   - name: "History API"
-    priority: 3
+    priority: 4
     links:
       - url: "http://192.168.2.143:9085/latest/history/1000000000"
         title: "/latest/history/1000000000"
@@ -76,19 +76,19 @@ categories:
 
   - name: "World API"
     image: "images/world.jpg"
-    priority: 3
+    priority: 4
     links:
       - url: "http://192.168.2.143:9090/latest/world"
         title: "/world"
 
   - name: "Date API"
-    priority: 3
+    priority: 4
     links:
       - url: "http://192.168.2.143:9086/latest/date"
         title: "/date"
 
   - name: "Class API"
-    priority: 3
+    priority: 4
     links:
       - url: "http://192.168.2.143:9088/latest/class"
         title: "/class"
@@ -97,7 +97,7 @@ categories:
 
 
   - name: "Phase API"
-    priority: 3
+    priority: 4
     links:
       - url: "https://phases.api.hive.lan/"
         title: "/phase"
@@ -109,19 +109,19 @@ categories:
         title: "v1/ phase"
 
   - name: "Effects API"
-    priority: 3
+    priority: 4
     links:
       - url: "https://effects.api.hive.lan/"
         title: "/effects"
 
   - name: "Online Players API"
-    priority: 3
+    priority: 4
     links:
       - url: "http://192.168.2.143:9093/latest/onlineplayers"
         title: "/latest/onlineplayers"
 
   - name: "Nation API"
-    priority: 3
+    priority: 4
     links:
       - url: "http://192.168.2.143:9094/latest/nation"
         title: "/latest/nation"
@@ -133,7 +133,7 @@ categories:
         title: "/latest/nation/1000000026/towns"
 
   - name: "Group API"
-    priority: 3
+    priority: 4
     links:
       - url: "http://192.168.2.143:9095/latest/group/1000000006"
         title: "/latest/group/1000000006"
@@ -141,7 +141,7 @@ categories:
         title: "/latest/group/1000000007"
 
   - name: "Statistics API"
-    priority: 3
+    priority: 4
     links:
       - url: "http://192.168.2.143:9092/latest/statistics/money"
         title: "/latest/statistics/money"
@@ -163,7 +163,15 @@ categories:
         title: "/latest/statistics/politic"
 
   - name: "General Stuff"
-    priority: 5
+    priority: 6
     links:
       - url: "https://www.friedrichsdorf.de/down/loads/2023_muellkalender_9_10_11.pdf"
         title: "Müllkalender"
+
+  - name: "Subpages"
+    priority: 2
+    links:
+      - url: "games.html"
+        title: "Games"
+      - url: "outdoor.html"
+        title: "Outdoor & Urlaub"
