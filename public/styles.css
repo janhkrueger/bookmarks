@@ -1,7 +1,7 @@
 body {
     font-size: 16px; /* Default font size */
   }
-  
+
   /* Container to hold all category boxes */
   #output {
     display: flex;
@@ -9,7 +9,7 @@ body {
     justify-content: start;
     gap: 20px; /* Add gaps between boxes */
   }
-  
+
   /* Individual category boxes */
   .category-box {
     border: 2px solid black;
@@ -17,20 +17,25 @@ body {
     flex: 1;
     min-width: calc(50% - 30px);  /* Adjusted for new gap size */
   }
-  
+
   /* Category title styles */
   .category-box h2 {
     margin-bottom: 10px; /* Added bottom margin */
   }
-  
+
+  /* Category image styles */
+  .category-box img {
+    max-height: 0.8em; /* Set maximum height relative to text size */
+    vertical-align: middle; /* Align image vertically with text */
+  }
+
   /* Media Query for smaller screens */
   @media (max-width: 767px) {
     body {
       font-size: 18px; /* Increase default font size */
     }
-  
+
     .category-box {
       min-width: calc(100% - 20px); /* Boxes take full width on small screens */
     }
   }
-  
