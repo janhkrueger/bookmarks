@@ -81,3 +81,22 @@ categories:
         title: "/class"
       - url: "http://192.168.2.143:9088/latest/class/mana"
         title: "/class/mana"
+
+
+  - name: "Phase API"
+    priority: 2
+    links:
+      - url: "https://phases.api.hive.lan/"
+        title: "/phase"
+      - url: "https://phases.api.hive.lan/latest/"
+        title: "/latest phase"
+      - url: "https://phases.api.hive.lan/dev/"
+        title: "/dev phase"
+      - url: "https://phases.api.hive.lan/v1/"
+        title: "v1/ phase"
+
+  - name: "Effects API"
+    priority: 2
+    links:
+      - url: "https://effects.api.hive.lan/"
+        title: "/effects"
