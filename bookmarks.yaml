@@ -1,0 +1,39 @@
+categories:
+  - name: "Development"
+    image: "images/development.jpg"
+    links:
+      - url: "https://gitlab.com/janhkrueger/janhkrueger"
+        title: "Gitlab"
+      - url: "https://dev.azure.com/janhkrueger/"
+        title: "Azure DevOps"
+  - name: "PI"
+    image: "images/pi.jpg"
+    links:
+      - url: "https://vault.hive.lan/"
+        title: "Hashicorp Vault"
+      - url: "https://portainer.hive.lan/"
+        title: "Portainer"
+
+  - name: "Town API"
+    image: "images/town.jpg"
+    links:
+      - url: "https://towns.api.hive.lan/"
+        title: "Towns"
+      - url: "https://town.api.hive.lan/1000000003"
+        title: "Town: /1000000003"
+      - url: "https://town.api.hive.lan/latest/1000000003"
+        title: "/latest/1000000003"
+
+  - name: "Item API"
+    image: "images/item.jpg"
+    links:
+      - url: "http://192.168.2.143:9082/latest/item"
+        title: "/item"
+      - url: "http://192.168.2.143:9082/latest/item/1027"
+        title: "item/1027"
+
+  - name: "Killmail API"
+    image: "images/item.jpg"
+    links:
+      - url: "https://killmail.api.hive.lan/1"
+        title: "/killmail/1"
