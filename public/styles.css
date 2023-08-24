@@ -7,15 +7,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
+    gap: 20px; /* Add gaps between boxes */
   }
   
   /* Individual category boxes */
   .category-box {
     border: 2px solid black;
     padding: 10px;
-    margin: 10px;
     flex: 1;
-    min-width: calc(50% - 20px); /* Take 50% of the container width minus margins */
+    min-width: calc(50% - 30px);  /* Adjusted for new gap size */
   }
   
   /* Category title styles */
