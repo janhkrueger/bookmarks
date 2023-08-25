@@ -13,6 +13,15 @@ categories:
       - url: "https://github.com/janhkrueger"
         title: "GitHub"
 
+  - name: "Issues"
+    priority: 1
+    image: "images/development.jpg"
+    openInNewTab: true # Add this line
+    links:
+      - url: "https://gitlab.com/insulae_dev/insulae/-/issues"
+        title: "Issues · Insulae"
+      - url: "https://gitlab.com/AmhlaidhDoireann/questofislands/-/issues"
+        title: "Issues · QoI"
 
   - name: "Books"
     priority: 3
