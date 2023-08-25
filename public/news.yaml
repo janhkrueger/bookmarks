@@ -2,6 +2,7 @@ categories:
   - name: "News"
     priority: 1
     image: "images/development.jpg"
+    openInNewTab: true # Add this line
     links:
       - url: "https://vancouversun.com/"
         title: "Home | Vancouver Sun"
@@ -14,6 +15,7 @@ categories:
 
   - name: "BayArea"
     priority: 2
+    openInNewTab: true # Add this line
     links:
       - url: "https://www.sfgate.com/"
         title: "SFGATE: San Francisco Bay Area"
@@ -28,6 +30,7 @@ categories:
 
   - name: "Seattle"
     priority: 2
+    openInNewTab: true # Add this line
     links:
       - url: "https://www.seattletimes.com/"
         title: "The Seattle Times"
@@ -38,6 +41,7 @@ categories:
 
   - name: "Chile"
     priority: 2
+    openInNewTab: true # Add this line
     links:
       - url: "https://santiagotimes.cl/"
         title: "Chile News | Santiago Times"
