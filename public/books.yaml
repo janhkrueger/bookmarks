@@ -11,3 +11,15 @@ categories:
         title: "Popular Lost Civilizations Books | Goodreads"
       - url: "https://www.goodreads.com/list/show/13256.Science_Writing"
         title: "Science Writing (233 books) | Goodreads"
+      - url: "http://www.ericidle.com/reading/?m=201111"
+        title: "Eric Idle Reading » 2011 » November"
+      - url: "Simone’s books on Goodreads (822 books)"
+        title: "https://www.goodreads.com/review/list/27065452?shelf=%23ALL%23"
+      - url: "Ready Player One Allusions and Cultural References"
+        title: "https://www.shmoop.com/ready-player-one/allusions.html"
+
+  - name: "Back"
+    priority: 2
+    links:
+      - url: "index.html"
+        title: "Back"
