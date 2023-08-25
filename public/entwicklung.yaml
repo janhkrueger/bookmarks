@@ -23,6 +23,13 @@ categories:
         title: "A C++ function that produces a stack backtrace with demangled function & method names."
       - url: "https://cppsecrets.com/users/285511211497106971071169711810511097121121971009711864103109971051084699111109/C00-rapidjsonGetString.php"
         title: "C++ rapidjson::GetString() | C++ | cppsecrets.com"
+      - url: "https://medium.com/@Carmichaelize/writing-better-user-stories-and-bug-tickets-3cb5165e7db"
+        title: "Writing Better User Stories and Bug Tickets | by Scott Carmichael | Medium"
+      - url: "https://ocramius.github.io/blog/yubikey-for-ssh-gpg-git-and-local-login/"
+        title: "YubiKey for SSH, Login, 2FA, GPG and Git Signing"
+      - url: "https://uat.opteamix.com/content/uploads/2020/05/shift_left.png"
+        title: "shift_left.png (1679×939)"
+
 
   - name: "Game Design"
     priority: 2
