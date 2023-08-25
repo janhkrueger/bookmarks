@@ -1,0 +1,13 @@
+categories:
+  - name: "Books"
+    priority: 1
+    image: "images/development.jpg"
+    links:
+      - url: "https://www.theverge.com/books"
+        title: "Books - The Verge"
+      - url: "https://www.goodreads.com/shelf/show/silicon-valley?page=4"
+        title: "Popular Silicon Valley Books | Goodreads"
+      - url: "https://www.goodreads.com/shelf/show/lost-civilizations"
+        title: "Popular Lost Civilizations Books | Goodreads"
+      - url: "https://www.goodreads.com/list/show/13256.Science_Writing"
+        title: "Science Writing (233 books) | Goodreads"
