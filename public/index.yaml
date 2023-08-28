@@ -12,6 +12,8 @@ categories:
         title: "Insulae Main Repo"
       - url: "https://github.com/janhkrueger"
         title: "GitHub"
+      - url: "https://portal.azure.com/#view/Microsoft_Azure_Billing/FreeServicesBlade"
+        title: "Azure Free Services"
 
   - name: "Issues"
     priority: 1
@@ -58,5 +60,5 @@ categories:
         title: "News"
       - url: "insulaeapis.html"
         title: "Insulae APIs"
-      - url: "books.html"
+      - url: "b ooks.html"
         title: "Books"
