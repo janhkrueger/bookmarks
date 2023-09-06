@@ -1,0 +1,15 @@
+categories:
+  - name: "Pokemon"
+    priority: 1
+    image: "images/development.jpg"
+    links:
+      - url: "http://pokewiki.de"
+        title: "Pokewiki"
+      - url: "https://janhkrueger.gitlab.io/pokemon-hotels-with-stops-and-gyms/"
+        title: "Hotels with Stops and Gyms"
+
+  - name: "Back"
+    priority: 2
+    links:
+      - url: "index.html"
+        title: "Back"

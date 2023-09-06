@@ -60,5 +60,7 @@ categories:
         title: "News"
       - url: "insulaeapis.html"
         title: "Insulae APIs"
-      - url: "b ooks.html"
+      - url: "books.html"
         title: "Books"
+      - url: "pokemon.html"
+        title: "Pokemon"
