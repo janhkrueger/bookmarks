@@ -9,11 +9,10 @@ categories:
         title: "Hotels with Stops and Gyms"
       - url: "https://my.matterport.com/show/?m=P9WCbyCBGBM"
         title: "ポケモン化石博物館　Pokémon Fossil Museum"
-      - url: "Sword/Shield Ribbons"
-        title: "https://serebii.net/swordshield/ribbons.shtml"
-      - url: "Sword/Shield Happiness"
-        title: "https://serebii.net/swordshield/happiness.shtml"
-
+      - url: "https://serebii.net/swordshield/ribbons.shtml"
+        title: "Sword/Shield Ribbons"
+      - url: "https://serebii.net/swordshield/happiness.shtml"
+        title: "Sword/Shield Happiness"
 
 
   - name: "Back"
