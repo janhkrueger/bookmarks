@@ -32,7 +32,8 @@ categories:
     links:
       - url: "https://www.amazon.de/hz/mycd/digital-console/contentlist/booksAll/dateDsc/"
         title: "Buchliste"
-
+      - url: "https://www.amazon.de/kindle-dbs/browse/ref=dbs_b_r_brws_PUWYLOKindleDEv1_recs_pg_1?metadata=cardAppType%3ADESKTOP%24deviceTypeID%3AA2Y8LFC259B97P%24clientRequestId%3AK6BTYF5N3685EAZXA9CA%24deviceAppType%3ADESKTOP%24ipAddress%3A10.81.54.13%24userAgent%3AMozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F605.1.15+%28KHTML%2C+like+Gecko%29+Version%2F16.4+Safari%2F605.1.15%24deviceFamily%3AWhiskeytown%24cardSurfaceType%3Adesktop%24cardMobileOS%3AUnknown%24countryOfResidence%3ADE%24deviceSurfaceType%3Adesktop&storeType=ebooks&widgetId=unified-ebooks-storefront-default_PUWYLOKindleDEv1&sourceAsin=&content-id=amzn1.sym.9e28db5b-b3de-49d3-9e69-768fe18aecf3&refTagFromService=PUWYLOKindleDEv1&title=Serien+fortsetzen%2C+die+du+begonnen+hast&pf_rd_p=9e28db5b-b3de-49d3-9e69-768fe18aecf3&sourceType=recs&pf_rd_r=K6BTYF5N3685EAZXA9CA&pd_rd_wg=XIFiA&ref_=dbs_r_recs_PUWYLOKindleDEv1_r&SkipDeviceExclusion=true&pd_rd_w=rzjlY&pd_rd_r=d6de5bca-8e73-41ea-b9c1-f1cee3d3b029&page=1"
+        title: "Buchserien"
 
   - name: "PI"
     priority: 5
