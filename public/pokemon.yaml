@@ -15,7 +15,8 @@ categories:
         title: "Sword/Shield Happiness"
       - url: "https://www.bisafans.de/"
         title: "Bisafans"
-
+      - url: "https://serebii.net"
+        title: "Serebii.net"
 
   - name: "Back"
     priority: 2
