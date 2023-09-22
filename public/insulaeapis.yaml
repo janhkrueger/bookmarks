@@ -1,5 +1,11 @@
 categories:
+  - name: "Insulae"
+    priority: 1
+    links:
+      - url: "http://localhost:8081"
+        title: "Insulae"
   - name: "Town API"
+
     priority: 4
     image: "images/town.jpg"
     links:
