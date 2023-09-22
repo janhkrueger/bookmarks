@@ -17,6 +17,22 @@ categories:
         title: "Bisafans"
       - url: "https://serebii.net"
         title: "Serebii.net"
+      - url: "https://lincoln-lm.github.io/JS-Finder/Tools/BDSPFeebas.html"
+        title: "BDSP Feebas Finder.net"
+      - url: "https://gamerguides.com/pokemon-brilliant-diamond-and-shining-pearl/maps/grand-underground"
+        title: "BDSP Interactive Underground"
+      - url: "https://pokeapi.co"
+        title: "Pokémon API"
+      - url: "https://www.reddit.com/r/PokemonScarletViolet/comments/zhkng4/beginners_guide_to_support_kinda/"
+        title: "SV Beginner's Guide to Support"
+      - url: "https://www.bisafans.de/spiele/editionen/karmesin-purpur/ev-training.php"
+        title: "SV EV-Training und gute Trainingstellen in Karmesin und Purpur"
+      - url: "https://www.pokewiki.de/Pokémon_mit_verschiedenen_Formen#Pikachu"
+        title: "Pokémon mit verschiedenen Formen"
+      - url: "https://www.reddit.com/r/PokemonScarletViolet/comments/zj3shy/healer_raid_players_are_we_okwanted/"
+        title: "Healer Raid Players: Are We Ok/Wanted?"
+
+
 
   - name: "Back"
     priority: 2

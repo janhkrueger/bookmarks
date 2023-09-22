@@ -49,6 +49,9 @@ categories:
     links:
       - url: "https://www.friedrichsdorf.de/down/loads/2023_muellkalender_9_10_11.pdf"
         title: "Müllkalender"
+      - url: "https://musicforprogramming.net/latest/"
+        title: "Music for Programming"
+
 
   - name: "Subpages"
     priority: 2
