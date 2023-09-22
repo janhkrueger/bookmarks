@@ -3,133 +3,123 @@ categories:
     priority: 4
     image: "images/town.jpg"
     links:
-      - url: "https://towns.api.hive.lan/"
+      - url: "http://localhost:9096/v1"
         title: "Towns"
-      - url: "https://town.api.hive.lan/1000000003"
+      - url: "http://localhost:9081/v6/1000000003"
         title: "Town: /1000000003"
-      - url: "https://town.api.hive.lan/latest/1000000003"
-        title: "/latest/1000000003"
 
   - name: "Item API"
     priority: 4
     image: "images/item.jpg"
     links:
-      - url: "http://192.168.2.143:9082/latest/item"
+      - url: "http://localhost:9082/v1/"
         title: "/item"
-      - url: "http://192.168.2.143:9082/latest/item/1027"
+      - url: "http://localhost:9082/v1/item/1027"
         title: "item/1027"
 
   - name: "Killmail API"
     priority: 4
     links:
-      - url: "https://killmail.api.hive.lan/1"
+      - url: "http://localhost:9083/v1/1"
         title: "/killmail/1"
 
 
   - name: "Buildings API"
     priority: 4
     links:
-      - url: "http://192.168.2.143:9084/latest/building"
-        title: "/buildings"
-      - url: "http://192.168.2.143:9084/latest/buildings/9"
+      - url: "http://localhost:9084/v1/9"
         title: "/buildings/9"
-      - url: "http://192.168.2.143:9084/latest/buildings/46"
+      - url: "http://localhost:9084/v1/46"
         title: "/buildings/46"
 
   - name: "History API"
     priority: 4
     links:
-      - url: "http://192.168.2.143:9085/latest/history/1000000000"
+      - url: "http://localhost:9085/v1/history/1000000000"
         title: "/latest/history/1000000000"
-      - url: "http://192.168.2.143:9085/latest/history/1000000000/1000000004"
+      - url: "http://localhost:9085/v1/history/1000000000/1000000004"
         title: "/latest/history/1000000000/1000000004"
 
   - name: "World API"
     image: "images/world.jpg"
     priority: 4
     links:
-      - url: "http://192.168.2.143:9090/latest/world"
+      - url: "http://localhost:9090/v1/"
         title: "/world"
 
   - name: "Date API"
     priority: 4
     links:
-      - url: "http://192.168.2.143:9086/latest/date"
+      - url: "http://localhost:9086/v1"
         title: "/date"
 
   - name: "Class API"
     priority: 4
     links:
-      - url: "http://192.168.2.143:9088/latest/class"
+      - url: "http://localhost:9088/v1/class"
         title: "/class"
-      - url: "http://192.168.2.143:9088/latest/class/mana"
+      - url: "http://localhost:9088/v1/class/mana"
         title: "/class/mana"
 
 
   - name: "Phase API"
     priority: 4
     links:
-      - url: "https://phases.api.hive.lan/"
+      - url: "http://localhost:9089/v1"
         title: "/phase"
-      - url: "https://phases.api.hive.lan/latest/"
-        title: "/latest phase"
-      - url: "https://phases.api.hive.lan/dev/"
-        title: "/dev phase"
-      - url: "https://phases.api.hive.lan/v1/"
-        title: "v1/ phase"
 
   - name: "Effects API"
     priority: 4
     links:
-      - url: "https://effects.api.hive.lan/"
+      - url: "http://localhost:9091/v1/effect"
         title: "/effects"
 
   - name: "Online Players API"
     priority: 4
     links:
-      - url: "http://192.168.2.143:9093/latest/onlineplayers"
+      - url: "http://localhost:9093/v1/onlineplayers"
         title: "/latest/onlineplayers"
 
   - name: "Nation API"
     priority: 4
     links:
-      - url: "http://192.168.2.143:9094/latest/nation"
+      - url: "http://localhost:9094/v1/nation"
         title: "/latest/nation"
-      - url: "http://192.168.2.143:9094/latest/nation/1000000026"
+      - url: "http://localhost:9094/v1/nation/1000000026"
         title: "/latest/nation/1000000026"
-      - url: "http://192.168.2.143:9094/latest/nation/1000000026/members"
+      - url: "http://localhost:9094/v1/nation/1000000026/members"
         title: "/latest/nation/1000000026/members"
-      - url: "http://192.168.2.143:9094/latest/nation/1000000026/towns"
+      - url: "http://localhost:9094/v1/nation/1000000026/towns"
         title: "/latest/nation/1000000026/towns"
 
   - name: "Group API"
     priority: 4
     links:
-      - url: "http://192.168.2.143:9095/latest/group/1000000006"
-        title: "/latest/group/1000000006"
-      - url: "http://192.168.2.143:9095/latest/group/1000000007"
+      - url: "http://localhost:9095/v1/group/1000000006"
+        title: "/v1/group/1000000006"
+      - url: "http://localhost:9095/latest/group/1000000007"
         title: "/latest/group/1000000007"
 
   - name: "Statistics API"
     priority: 4
     links:
-      - url: "http://192.168.2.143:9092/latest/statistics/money"
+      - url: "http://localhost:9092/v1/statistics/money"
         title: "/latest/statistics/money"
-      - url: "http://192.168.2.143:9092/latest/statistics/fame"
+      - url: "http://localhost:9092/v1/statistics/fame"
         title: "/latest/statistics/fame"
-      - url: "http://192.168.2.143:9092/latest/statistics/nation"
+      - url: "http://localhost:9092/v1t/statistics/nation"
         title: "/latest/statistics/nation"
-      - url: "http://192.168.2.143:9092/latest/statistics/town"
+      - url: "http://localhost:9092/v1/statistics/town"
         title: "/latest/statistics/town"
-      - url: "http://192.168.2.143:9092/latest/statistics/conquests"
+      - url: "http://localhost:9092/v1/statistics/conquests"
         title: "/latest/statistics/conquests"
-      - url: "http://192.168.2.143:9092/latest/statistics/tradereputation"
+      - url: "http://localhost:9092/v1/statistics/tradereputation"
         title: "/latest/statistics/tradereputation"
-      - url: "http://192.168.2.143:9092/latest/statistics/battlereputation"
+      - url: "http://localhost:9092/v1/statistics/battlereputation"
         title: "/latest/statistics/battlereputation"
-      - url: "http://192.168.2.143:9092/latest/statistics/evilness"
+      - url: "http://localhost:9092/v1/statistics/evilness"
         title: "/latest/statistics/evilness"
-      - url: "http://192.168.2.143:9092/latest/statistics/politic"
+      - url: "http://localhost:9092/v1/latest/statistics/politic"
         title: "/latest/statistics/politic"
 
   - name: "Back"
