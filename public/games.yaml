@@ -7,6 +7,8 @@ categories:
         title: "XBox Cloud Gaming"
       - url: "https://gaming.amazon.com/home"
         title: "Prime Gaming"
+      - url: "https://killedbyniantic.com"
+        title: "Killed By Niantic"
 
   - name: "Back"
     priority: 2
