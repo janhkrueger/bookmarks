@@ -10,8 +10,20 @@ categories:
       - url: "https://killedbyniantic.com"
         title: "Killed By Niantic"
 
-  - name: "Back"
+  - name: "Creatures"
     priority: 2
+    image: "images/development.jpg"
+    links:
+      - url: "http://creaturescaves.com/index.php"
+        title: "creaturescaves"
+      - url: "http://www.creatures.de/"
+        title: "Mummy's Creatures (inactive)"
+      - url: "http://alien.creaturesforum.de/"
+        title: "Alien's Creatures World (inactive)"
+
+
+  - name: "Back"
+    priority: 999
     links:
       - url: "index.html"
         title: "Back"
