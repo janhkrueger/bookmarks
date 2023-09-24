@@ -31,11 +31,22 @@ categories:
         title: "Pokémon mit verschiedenen Formen"
       - url: "https://www.reddit.com/r/PokemonScarletViolet/comments/zj3shy/healer_raid_players_are_we_okwanted/"
         title: "Healer Raid Players: Are We Ok/Wanted?"
+      - url: "https://www.pokemoncenter.com/product/710-05966/outdoors-with-pokemon-camper-backpack"
+        title: "Outdoors with Pokémon Camper Backpack"
 
+  - name: "Niantic"
+    priority: 2
+    links:
+      - url: "https://niantic.helpshift.com/hc/en/21-wayfarer/faq/2190-reporting-abuse-in-wayfarer/"
+        title: "Reporting Abuse in Wayfarer — Wayfarer Help Center"
+      - url: "https://wayfarer.nianticlabs.com/new/showcase"
+        title: "Niantic Wayfarer"
+      - url: "https://my.nianticlabs.com/account"
+        title: "Niantic Profile"
 
 
   - name: "Back"
-    priority: 2
+    priority: 999
     links:
       - url: "index.html"
         title: "Back"
