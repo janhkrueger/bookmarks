@@ -1,0 +1,13 @@
+categories:
+  - name: "Books"
+    priority: 1
+    image: "images/development.jpg"
+    links:
+      - url: "https://nitter.net/KyleTrainEmoji/status/1680246994072133632#m"
+        title: "According a report by Global Energy Monitor in June, China is currently on track to DOUBLE its entire renewable energy capacity by 2025"
+
+  - name: "Back"
+    priority: 2
+    links:
+      - url: "index.html"
+        title: "Back"

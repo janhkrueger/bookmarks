@@ -70,3 +70,5 @@ categories:
         title: "Books"
       - url: "pokemon.html"
         title: "Pokemon"
+      - url: "environment.html"
+        title: "Environment"

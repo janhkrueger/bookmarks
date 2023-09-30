@@ -21,6 +21,29 @@ categories:
       - url: "http://alien.creaturesforum.de/"
         title: "Alien's Creatures World (inactive)"
 
+  - name: "Niantic"
+    priority: 2
+    image: "images/development.jpg"
+    links:
+      - url: "https://niantic.helpshift.com/hc/en/21-wayfarer/faq/2190-reporting-abuse-in-wayfarer/"
+        title: "Reporting Abuse in Wayfarer"
+      - url: "https://wayfarer.nianticlabs.com/new/showcase"
+        title: "Niantic Wayfarer"
+      - url: "https://my.nianticlabs.com/account"
+        title: "Niantic Profile"
+
+  - name: "Scherbenwelten"
+    priority: 2
+    image: "images/development.jpg"
+    links:
+      - url: "http://web89.server-drome.net/spielwiese/"
+        title: "Kartenarchiv 4.0"
+      - url: "https://de.mmofacts.com/diskussionen/thema/scherbenwelten-klon-7743"
+        title: "Scherbenwelten-Klon - Diskussionen über Macht der Krieger auf mmofacts.com"
+      - url: "http://web.archive.org/web/20020813233137/www.scherbenwelten.de/start.php"
+        title: "SW History 2002-08-14"
+      - url: "https://web.archive.org/web/20071224103731fw_/http://www.scherbenwelten.de/help.php?SEARCH=&id=95"
+        title: "SW Hilfe Allgemeines"
 
   - name: "Back"
     priority: 999

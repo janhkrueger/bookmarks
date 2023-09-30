@@ -39,6 +39,9 @@ categories:
         title: "Raph’s Website » AGDC: Opportunities for Monetizing Online Games"
       - url: "https://lostgarden.home.blog/"
         title: "LOSTGARDEN – thoughtful essays on game design theory, art and the business of design."
+      - url: "https://www.theverge.com/2020/4/1/21202748/community-managers-video-game-development-reddit-discord-twitter"
+        title: "Why community managers are a crucial connection between players and developers"
+
 
   - name: "Dungeon Design"
     priority: 2
@@ -82,6 +85,28 @@ categories:
         title: "Blog | Denken Solutions"
       - url: "https://www.slideshare.net/aadiMisra/devops-culture-75811464"
         title: "DevOps culture"
+
+  - name: "Flow"
+    priority: 3
+    image: "images/development.jpg"
+    links:
+      - url: "https://www.codewars.com/post/developer-productivity-a-guide-to-entering-the-flow-state"
+        title: "Developer Productivity: A guide to finding flow"
+
+  - name: "Agile"
+    priority: 3
+    image: "images/development.jpg"
+    links:
+      - url: "https://dev.to/scottshipp/are-amazon-and-google-at-odds-with-agile-4ga6"
+        title: "Are Amazon and Google at odds with Agile?"
+
+  - name: "Other"
+    priority: 4
+    image: "images/development.jpg"
+    links:
+      - url: "https://www.passsource.com"
+        title: "PassSource"
+
 
   - name: "Back"
     priority: 999
