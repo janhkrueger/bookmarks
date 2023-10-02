@@ -18,6 +18,9 @@ categories:
         title: "Hetzner Cloud"
       - url : "https://hub.docker.com/repositories/janhkrueger"
         title: "Docker Hub janhkrueger"
+      - url : "https://blog.jhk.sh"
+        title: "Blog janhkrueger blog.jhk.sh"
+
 
 
   - name: "Issues"
