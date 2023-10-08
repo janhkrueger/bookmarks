@@ -78,3 +78,11 @@ categories:
         title: "Pokemon"
       - url: "environment.html"
         title: "Environment"
+				
+- name: "Startpage"
+    priority: 1
+    image: "images/development.jpg"
+    openInNewTab: true # Add this line
+    links:
+      - url: "https://www.spiegel.de"
+			title: "Spiegel Online"
