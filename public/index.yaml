@@ -78,11 +78,27 @@ categories:
         title: "Pokemon"
       - url: "environment.html"
         title: "Environment"
-				
-- name: "Startpage"
+
+  - name: "Startpage"
     priority: 1
     image: "images/development.jpg"
     openInNewTab: true # Add this line
     links:
       - url: "https://www.spiegel.de"
-			title: "Spiegel Online"
+        title: "Spiegel Online"
+      - url: "https://blog.fefe.de"
+        title: "Fefes Blog"
+      - url: "https://www.golem.de"
+        title: "golem.de"
+      - url: "https://www.heise.de"
+        title: "heise online"
+      - url: "https://nintendosoup.com"
+        title: "NintendoSoup"
+      - url: "https://edition.cnn.com"
+        title: "CNN"
+      - url: "https://www.macrumors.com"
+        title: "Macrumors"
+      - url: "https://arstechnica.com"
+        title: "ars Technica"
+      - url: "https://fruitbatwoman.wordpress.com"
+        title: "S.J.C. Schreiber"
