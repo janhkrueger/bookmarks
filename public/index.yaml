@@ -1,6 +1,6 @@
 categories:
   - name: "Development"
-    priority: 1
+    priority: 2
     image: "images/development.jpg"
     openInNewTab: true # Add this line
     links:
@@ -24,7 +24,7 @@ categories:
 
 
   - name: "Issues"
-    priority: 1
+    priority: 2
     image: "images/development.jpg"
     openInNewTab: true # Add this line
     links:
@@ -34,7 +34,7 @@ categories:
         title: "Issues · QoI"
 
   - name: "Books"
-    priority: 3
+    priority: 4
     links:
       - url: "https://www.amazon.de/hz/mycd/digital-console/contentlist/booksAll/dateDsc/"
         title: "Buchliste"
@@ -60,7 +60,7 @@ categories:
 
 
   - name: "Subpages"
-    priority: 2
+    priority: 3
     links:
       - url: "games.html"
         title: "Games"
