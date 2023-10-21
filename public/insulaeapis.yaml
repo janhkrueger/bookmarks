@@ -128,6 +128,16 @@ categories:
       - url: "http://localhost:9092/v1/latest/statistics/politic"
         title: "/latest/statistics/politic"
 
+  - name: "Character API"
+    priority: 4
+    links:
+      - url: "http://localhost:9098/v1/120"
+        title: "120 SAMM"
+      - url: "http://localhost:9098/v1/1000000815"
+        title: "1000000815 Teccatlipoca"
+      - url: "http://localhost:9098/v1/1000007750"
+        title: "1000007750 Gol Pimmon"
+
   - name: "Back"
     priority: 999
     links:
