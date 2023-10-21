@@ -77,6 +77,8 @@ categories:
         title: "GCC vs. Clang/LLVM: An In-Depth Comparison of C/C++ Compilers | by Alibaba Tech | Medium"
       - url: "https://spin.atomicobject.com/2016/08/26/makefile-c-projects/"
         title: "A Super-Simple Makefile for Medium-Sized C/C++ Projects"
+      - url: "https://learn.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp?view=msvc-170"
+        title: "Modern C++ best practices for exceptions and error handling"
 
   - name: "What is DevOps"
     priority: 2
