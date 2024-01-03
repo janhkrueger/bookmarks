@@ -1,13 +1,15 @@
 categories:
   - name: "Insulae"
     priority: 1
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:8081"
         title: "Insulae"
-  - name: "Town API"
 
+  - name: "Town API"
     priority: 4
     image: "images/town.jpg"
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9096/v1"
         title: "Towns"
@@ -17,6 +19,7 @@ categories:
   - name: "Item API"
     priority: 4
     image: "images/item.jpg"
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9082/v1/"
         title: "/item"
@@ -25,13 +28,14 @@ categories:
 
   - name: "Killmail API"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9083/v1/1"
         title: "/killmail/1"
 
-
   - name: "Buildings API"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9084/v1/9"
         title: "/buildings/9"
@@ -40,6 +44,7 @@ categories:
 
   - name: "History API"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9085/v1/history/1000000000"
         title: "/latest/history/1000000000"
@@ -49,45 +54,51 @@ categories:
   - name: "World API"
     image: "images/world.jpg"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9090/v1/"
         title: "/world"
 
   - name: "Date API"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9086/v1"
         title: "/date"
 
   - name: "Class API"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9088/v1/class"
         title: "/class"
       - url: "http://localhost:9088/v1/class/mana"
         title: "/class/mana"
 
-
   - name: "Phase API"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9089/v1"
         title: "/phase"
 
   - name: "Effects API"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9091/v1/effect"
         title: "/effects"
 
   - name: "Online Players API"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9093/v1/onlineplayers"
         title: "/latest/onlineplayers"
 
   - name: "Nation API"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9094/v1/nation"
         title: "/latest/nation"
@@ -100,6 +111,7 @@ categories:
 
   - name: "Group API"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9095/v1/group/1000000006"
         title: "/v1/group/1000000006"
@@ -108,6 +120,7 @@ categories:
 
   - name: "Statistics API"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9092/v1/statistics/money"
         title: "/latest/statistics/money"
@@ -130,6 +143,7 @@ categories:
 
   - name: "Character API"
     priority: 4
+    openInNewTab: true # Add this line
     links:
       - url: "http://localhost:9098/v1/120"
         title: "120 SAMM"
