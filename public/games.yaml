@@ -45,6 +45,15 @@ categories:
       - url: "https://web.archive.org/web/20071224103731fw_/http://www.scherbenwelten.de/help.php?SEARCH=&id=95"
         title: "SW Hilfe Allgemeines"
 
+  - name: "Switch Limited Publishers"
+    priority: 1
+    image: "images/development.jpg"
+    links:
+      - url: "https://superraregames.com"
+        title: "Super Rare Games"
+      - url: "https://limitedrungames.com"
+        title: "Limited Run Games"
+
   - name: "Back"
     priority: 999
     links:
