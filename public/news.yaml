@@ -27,6 +27,9 @@ categories:
         title: "SF Weekly"
       - url: "https://www.salon.com/"
         title: "Salon.com"
+      - url: "https://sfstandard.com"
+        title: "The San Francisco Standard"
+
 
   - name: "Seattle"
     priority: 2
